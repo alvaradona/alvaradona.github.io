@@ -145,7 +145,13 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
-
+.wrapper {
+    display: flex;
+  }
+  
+  .wrapper > div {
+    flex: 1;
+  }
 .right {
     width: 30%;
     border-left: 2px solid black;
