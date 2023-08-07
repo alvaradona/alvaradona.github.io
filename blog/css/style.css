@@ -168,6 +168,34 @@ button {
     padding: 10px;
 }
 
+.expand {
+    display: block;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.expand:hover {
+    color: #0056b3;
+}
+
+.attribution {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.attribution a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: #0056b3;
+}
+
 footer {
     height: 80px;
     display: flex;
