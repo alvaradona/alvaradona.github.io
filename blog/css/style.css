@@ -61,127 +61,112 @@
     font-weight: regular;
 }
 
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        
-        .heading {
-            width: 100%;
-            height: 90px;
-            display: flex;
-            justify-content: center;
-            text-align: center;
-        }
-        
-        span {
-            padding-top: 25px;
-            font-size: 21px;
-            font-weight: bold;
-            -ms-transform: rotate(-10deg);
-            transform: rotate(-10deg);
-        }
-        
-        #charcoal {
-            background-color: brown;
-            padding: 5px;
-            font-family: sans-serif;
-            font-weight: bolder;
-            border-radius: 5px;
-            color: white;
-        }
-        
-        .nav {
-            border: 2px solid black;
-        }
-        
-        ul {
-            display: flex;
-        }
-        
-        li {
-            list-style: none;
-            padding: 20px 40px;
-            font-size: 20px;
-            cursor: pointer;
-            font-stretch: expanded;
-        }
-        
-        .container {
-            display: flex;
-        }
-        
-        .left {
-            width: 70%;
-            padding-left: 30px;
-            /* display: flex; */
-        }
-        
-        .left p,
-        b {
-            margin: 10px 30px;
-            font-family: cursive;
-            font-size: 18px;
-        }
-        
-        .left img {
-            width: 280px;
-            height: 350px;
-        }
-        
-        .box {
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .top {
-            display: flex;
-        }
-        
-        .bottom p {
-            margin: 0px;
-            padding: 10px 0px;
-        }
-        
-        .images img {
-            padding: 20px;
-        }
-        
-        button {
-            height: 50px;
-            width: 150px;
-            background-color: rgb(70, 70, 117);
-            color: white;
-            margin-left: 20px;
-            font-size: 20px;
-            border-radius: 10px;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        
-        .right {
-            width: 30%;
-            border-left: 2px solid black;
-        }
-        
-        .first {
-            display: flex;
-            flex-direction: column;
-            padding: 0px 120px;
-            height: 500px;
-        }
-        
-        .first p {
-            padding: 10px;
-        }
-        
-        footer {
-            height: 80px;
-            display: flex;
-            justify-content: space-between;
-            padding-top: 40px;
-            padding-left: 40px;
-            padding-right: 40px;
-            background-color: rgb(240, 233, 233);
-        }
+body {
+    font-family: 'lato-regular', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.higlight {
+    color: #ff9900;
+    font-weight: bold;
+}
+#charcoal {
+    background-color: brown;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: white;
+}
+
+.nav {
+    border: 2px solid black;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    font-stretch: expanded;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+}
+
+article {
+    flex: 1;
+}
+
+article:nth-of-type(3) {
+    flex: 2;
+}
+.figure-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.figure-container figure {
+    flex: 1 1 calc(33.33% - 10px);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.figure-container img {
+    max-width: 100%;
+    height: auto;
+}
+button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(70, 70, 117);
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right {
+    width: 30%;
+    border-left: 2px solid black;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 120px;
+    height: 500px;
+}
+
+.first p {
+    padding: 10px;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgb(240, 233, 233);
