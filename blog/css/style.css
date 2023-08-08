@@ -126,7 +126,7 @@ article:nth-of-type(3) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 400px;
+    max-width: 40px;
     margin: 0 auto;
 }
 
@@ -180,7 +180,7 @@ button {
     display: flex;
     flex-direction: column;
     padding: 0px 120px;
-    height: 500px;
+    height: 50px;
 }
 
 .first p {
@@ -192,7 +192,7 @@ button {
 .expand {
     display: block;
     text-align: center;
-    font-size: 10px;
+    font-size: 5px;
     margin-top: 10px;
     color: #007bff;
     text-decoration: none;
@@ -204,7 +204,7 @@ button {
 
 
 .attribution {
-    font-size: 14px;
+    font-size: 10px;
     color: #666;
     margin-top: 10px;
 }
