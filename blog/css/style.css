@@ -126,7 +126,7 @@ article:nth-of-type(3) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
