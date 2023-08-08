@@ -162,6 +162,7 @@ button {
     cursor: pointer;
     font-weight: bold;
 }
+
 .wrapper {
     display: flex;
   }
@@ -169,6 +170,7 @@ button {
   .wrapper > div {
     flex: 1;
   }
+
 .right {
     width: 30%;
     border-left: 2px solid black;
@@ -216,3 +218,11 @@ button {
     color: #0056b3;
 }
 
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
