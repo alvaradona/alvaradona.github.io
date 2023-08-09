@@ -73,6 +73,9 @@ h1 {
     text-align: center;
     margin-top: 50px;
     font-size: 24px;
+    text-shadow:
+    1px 1px 1px black,
+    2px 2px 1px black;
 }
 
 span.highlight {
@@ -80,11 +83,15 @@ span.highlight {
     width: 250px;
     background-color: blue;
     color: #ff9900;
-    margin-left: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family: 'montserrat-regular', sans-serif;
     font-size: 50px;
     font-weight: bold;
     padding: 30 px;
+    text-shadow:
+    1px 1px 1px black,
+    2px 2px 1px black;
 }
 
 #charcoal {
