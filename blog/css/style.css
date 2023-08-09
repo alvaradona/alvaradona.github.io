@@ -61,18 +61,6 @@
     font-weight: regular;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.navbar {
-    background-color: #333;
-    border-top: 2px solid #000;
-    border-bottom: 2px solid #000;
-    padding: 10px 0;
-}
 
 body {
     font-family: 'lato-regular', sans-serif;
@@ -102,6 +90,9 @@ h1 {
 }
 
 .nav {
+    box-sizing: border-box;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     border: 2px solid black;
 }
 
