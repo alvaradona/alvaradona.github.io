@@ -190,6 +190,7 @@ button {
     cursor: pointer;
     font-weight: bold;
     position: sticky;
+    float: left;
 }
 
 .wrapper {
