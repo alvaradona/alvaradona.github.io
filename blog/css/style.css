@@ -95,6 +95,11 @@ h1 {
     border-bottom: 2px solid black;
     border: 2px solid black;
 }
+ .navlist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ }
 
 ul {
     list-style: none;
