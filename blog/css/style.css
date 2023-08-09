@@ -78,12 +78,15 @@ h1 {
 span.highlight {
     background-color: blue;
     color: #ff9900;
+    font-family: 'montserrat-regular', sans-serif;
+    font-size: 25px;
     font-weight: bold;
+    text-align: inherit;
     padding: 30 px;
     position: sticky;
     top: 0;
     left: 0;
-    margin: 1rem 0;
+    margin: 2px 0;
 }
 
 #charcoal {
