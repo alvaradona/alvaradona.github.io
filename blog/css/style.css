@@ -90,10 +90,11 @@ h1 {
 }
 
 .nav {
-    box-sizing: border;
+    box-sizing: border-box;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     border: 2px solid black;
+    padding: 10px 0;
 }
  .navlist {
     list-style: none;
@@ -118,8 +119,6 @@ li {
 span.strike {
     text-decoration-line: line-through;
 }
-
-
 
 section {
     display: flex;
