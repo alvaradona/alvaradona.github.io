@@ -79,9 +79,8 @@ span.highlight {
     background-color: blue;
     color: #ff9900;
     font-family: 'montserrat-regular', sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bold;
-    text-align: inherit;
     padding: 30 px;
     position: sticky;
     top: 0;
@@ -99,12 +98,12 @@ span.highlight {
 }
 
 .nav {
-    margin: 0;
-    border: 2px solid black;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 10px 0;
+    margin: 0;
 }
+
  .navlist {
     list-style: none;
     display: flex;
@@ -190,7 +189,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
-    float: bottom;
+    position: sticky;
 }
 
 .wrapper {
