@@ -134,6 +134,16 @@ section {
     flex-wrap: row wrap;
 }
 
+.article-image {
+    float: left;
+    margin: 20px auto;
+    width: auto;
+}
+
+.wrap {
+    margin-bottom: 15px;
+}
+
 article {
     flex: 1;
 }
@@ -164,7 +174,6 @@ article:nth-of-type(3) {
 aside{
     margin-left: 2px;
     border-left: 2px solid black;
-    justify-content: space-between;
     padding-left: 10px 0;
 
 }
