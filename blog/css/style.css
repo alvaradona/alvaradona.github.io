@@ -104,7 +104,8 @@ li {
     cursor: pointer;
     font-stretch: expanded; 
 }
-li.strike {
+
+span.strike {
     text-decoration-line: line-through;
 }
 
