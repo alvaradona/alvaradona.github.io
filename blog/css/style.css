@@ -48,17 +48,17 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 @font-face {
-    font-family: lato-regular;
+    font-family: 'lato-regular';
     src: url(/blog/fonts/sans-serif/lato-regular.ttf);
     font-style: regular;
     font-weight: regular;
 }
 
 @font-face {
-    font-family: montserrat-regular;
+    font-family: 'montserrat-regular';
     src:url(/blog/fonts/sans-serif/montserrat-regular.ttf);
-    font-style: regular;
-    font-weight: regular;
+    font-style: bold;
+    font-weight: bold;
 }
 
 
@@ -76,16 +76,15 @@ h1 {
 }
 
 span.highlight {
+    height: 500px;
+    width: 250px;
     background-color: blue;
     color: #ff9900;
+    margin-left: 50px;
     font-family: 'montserrat-regular', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     padding: 30 px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    margin: 2px 0;
 }
 
 #charcoal {
@@ -189,18 +188,7 @@ aside{
     background-color: rgb(240, 233, 233);
 }
 
-button {
-    height: 50px;
-    width: 150px;
-    background-color: rgb(70, 70, 117);
-    color: white;
-    margin-left: 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    
-}
+
 
 .wrapper {
     display: flex;
@@ -226,7 +214,18 @@ button {
     padding: 10px;
 }
 
-
+button {
+    height: 50px;
+    width: 150px;
+    background-color: rgb(70, 70, 117);
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
 
 .expand {
     display: block;
