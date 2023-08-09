@@ -75,9 +75,15 @@ h1 {
     font-size: 24px;
 }
 
-.higlight {
+span.highlight {
+    background-color: blue;
     color: #ff9900;
     font-weight: bold;
+    padding: 30 px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    margin: 1rem 0;
 }
 
 #charcoal {
