@@ -278,7 +278,7 @@ aside{
     color: #0056b3;
 }
 
-button {
+.subscribe-button {
     max-height: 50%;
     max-width: 50%;
     background-color: rgb(70, 70, 117);
@@ -292,7 +292,7 @@ button {
     max-height: 100%;
     max-width: 100%;
     }
-    
+
 footer {
     height: 80px;
     display: flex;
