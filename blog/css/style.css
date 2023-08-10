@@ -133,6 +133,9 @@ li {
 
 span.strike {
     text-decoration-line: line-through;
+    color: black;
+    font-size: smaller;
+    rotate: z 5deg;
 }
 
 section {
