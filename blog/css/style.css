@@ -71,7 +71,8 @@ body {
 
 h1 {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    padding: 20px;
     font-size: 24px;
     font-weight: bold;
     rotate: -10deg;
@@ -188,11 +189,10 @@ article:nth-of-type(3) {
 }
 
 aside{
-    margin: 20px;
+    margin: 30px;
     border-left: 2px solid black;
-    padding-left: 20px 0;
+    padding: 20px 0;
     justify-items: left;
-    gap: 20px;
 
 }
 
