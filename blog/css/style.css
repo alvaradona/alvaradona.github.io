@@ -195,6 +195,8 @@ aside{
     padding: 40px;
     max-width: 30%;
     max-height: 30%;
+    box-sizing: border-box;
+    text-align: right;
 
 }
 
