@@ -70,7 +70,7 @@
 .container {
     max-width: auto;
     margin: 0 auto;
-    padding: auto;
+    padding: 50px;
 }
 
 body {
