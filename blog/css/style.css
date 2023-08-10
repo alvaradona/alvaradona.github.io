@@ -228,6 +228,7 @@ aside{
 .first {
     display: flex;
     flex-direction: column;
+    column-gap: 10%;
     padding: 0px 120px;
     height: 50px;
 }
@@ -249,7 +250,6 @@ button {
     font-weight: bold;
     max-height: 100%;
     max-width: 100%;
-    display: flex;
     
 }
 
