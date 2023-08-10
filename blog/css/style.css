@@ -239,21 +239,7 @@ aside{
     margin: 10px 0;
 }
 
-button {
-    height: 50px;
-    width: 150px;
-    background-color: rgb(70, 70, 117);
-    color: white;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    max-height: 100%;
-    max-width: 100%;
-    
-}
+
 
 .expand {
     display: block;
@@ -292,6 +278,21 @@ button {
     color: #0056b3;
 }
 
+button {
+    max-height: 50%;
+    max-width: 50%;
+    background-color: rgb(70, 70, 117);
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    max-height: 100%;
+    max-width: 100%;
+    }
+    
 footer {
     height: 80px;
     display: flex;
