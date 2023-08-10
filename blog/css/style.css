@@ -228,6 +228,7 @@ aside{
 .first {
     display: flex;
     flex-direction: column;
+    column-width: 6rem;
     column-gap: 10%;
     height: 50px;
 }
