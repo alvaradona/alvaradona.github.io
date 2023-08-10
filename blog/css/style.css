@@ -123,6 +123,7 @@ ul {
     list-style: none;
     padding: 0;
     display: flex;
+    text-decoration: none;
 }
 
 li {
@@ -137,7 +138,7 @@ span.strike {
     text-decoration-line: line-through;
     color: black;
     font-size: smaller;
-    rotate: z 15deg;
+    rotate: z 10turn;
 }
 
 section {
