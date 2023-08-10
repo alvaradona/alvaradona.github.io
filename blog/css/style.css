@@ -96,14 +96,6 @@ span.highlight {
     2px 2px 1px black;
 }
 
-#charcoal {
-    background-color: brown;
-    padding: 5px;
-    font-family: sans-serif;
-    font-weight: bolder;
-    border-radius: 5px;
-    color: white;
-}
 
 .nav {
     border-top: 2px solid black;
@@ -242,6 +234,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
+    display: flex;
     
 }
 
