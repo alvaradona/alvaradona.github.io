@@ -79,8 +79,8 @@ h1 {
 }
 
 span.highlight {
-    height: 500px;
-    width: 250px;
+    max-width: 500px;
+    max-width: 250px;
     background-color: darkslateblue;
     color: beige;
     margin-left: 10px;
@@ -100,7 +100,7 @@ span.highlight {
 .nav {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    max-width: 150%;
+    max-width: 200%;
     height: 50%;
     padding: 5px 0;
     margin: 0;
