@@ -135,7 +135,7 @@ span.strike {
     text-decoration-line: line-through;
     color: black;
     font-size: smaller;
-    rotate: z 5deg;
+    rotate: z 15deg;
 }
 
 section {
