@@ -68,9 +68,9 @@
 }
 
 .container {
-    max-width: auto;
+    max-width: 500px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 20px;
 }
 
 body {
