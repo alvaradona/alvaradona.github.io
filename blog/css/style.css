@@ -234,6 +234,10 @@ aside{
 
 .first p {
     padding: 10px;
+}
+
+.box1, .box2, .box3 {
+    padding: 10px;
     background-color: beige;
     border-radius: 5px;
     margin: 10px 0;
@@ -251,8 +255,6 @@ aside{
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
-    max-height: 100%;
-    max-width: 100%;
     }
 
 .expand {
