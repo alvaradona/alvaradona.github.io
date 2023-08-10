@@ -131,14 +131,15 @@ li {
     padding: 20px 40px;
     font-size: 20px;
     cursor: pointer;
-    font-stretch: expanded; 
+    font-stretch: expanded;
+    text-decoration: none; 
 }
 
 span.strike {
     text-decoration-line: line-through;
     color: black;
     font-size: smaller;
-    rotate: z 10turn;
+    offset-rotate: 10turn;
 }
 
 section {
