@@ -162,6 +162,7 @@ section {
 
 article {
     flex: 1;
+    max-width: 50%;
 }
 
 article:nth-of-type(3) {
