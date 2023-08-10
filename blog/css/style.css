@@ -82,12 +82,12 @@ span.highlight {
     width: 250px;
     background-color: darkslateblue;
     color: beige;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     font-family: 'montserrat-regular', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    padding: 30 px;
+    padding: 40 px;
     rotate: -10deg;
     gap: 20px;
     text-shadow:
