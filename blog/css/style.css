@@ -62,7 +62,7 @@
 }
 
 .container {
-    max-width: 500px;
+    max-width: auto;
     margin: 0 auto;
     padding: 5px;
 }
