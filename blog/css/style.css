@@ -114,6 +114,7 @@ span.highlight {
     list-style: none;
     display: flex;
     justify-content: center;
+    text-decoration: none;
  }
 
 ul {
