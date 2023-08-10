@@ -152,17 +152,18 @@ section {
 
 .article-image {
     float: left;
-    margin: 20px auto;
+    margin: 10px auto;
     width: auto;
 }
 
 .wrap {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 article {
     flex: 1;
     max-width: 30%;
+    max-height: 30%;
 }
 
 article:nth-of-type(3) {
@@ -173,13 +174,13 @@ article:nth-of-type(3) {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 40px;
+    max-width: 20px;
     margin: 0 auto;
 }
 
 .figure-container figure {
     flex: 1 1 calc(33.33% - 10px);
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
