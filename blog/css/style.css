@@ -111,6 +111,8 @@ span.highlight {
 }
 
  .navlist {
+    color: #0056b3;
+    font-weight: normal;
     list-style: none;
     display: flex;
     justify-content: center;
