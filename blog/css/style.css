@@ -154,12 +154,12 @@ span.strike {
 }
 
 section {
-    display: flex left;
+    display: flex;
     flex-direction: column right;
-    flex-wrap: wrap left;
+    flex-wrap: wrap;
     padding: 0px 120px;
-    height: 500px;
-    margin-left: 0px;
+    height: 100px;
+    margin-left: 50px;
 }
 
 .article-image {
