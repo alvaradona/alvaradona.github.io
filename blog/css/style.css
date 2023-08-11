@@ -207,6 +207,11 @@ aside{
   
   .wrapper > div {
     flex: 1;
+    margin-right: 10px;
+  }
+
+  .wrapper >div:last-child {
+    margin-right: 0;
   }
 
 .right {
@@ -217,7 +222,6 @@ aside{
 .first {
     display: flex;
     flex-direction: column;
-    column-gap: 20px;
 }
 
 .first p {
