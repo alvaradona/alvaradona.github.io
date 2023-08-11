@@ -144,11 +144,6 @@ span.strike {
     transform: rotate(45deg);
 }
 
-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: row wrap;
-}
 
 .article-image {
     float: left;
