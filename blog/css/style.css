@@ -148,7 +148,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: row wrap;
-    justify-content: right;
+    margin-left: 40px;
 }
 
 .article-image {
