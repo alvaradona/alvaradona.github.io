@@ -133,10 +133,7 @@ span.highlight {
  }
 
 ul {
-    list-style: none;
-    padding: 0;
     display: flex;
-    text-decoration: none;
 }
 
 li {
@@ -145,7 +142,6 @@ li {
     font-size: 20px;
     cursor: pointer;
     font-stretch: expanded;
-    text-decoration: none; 
 }
 
 span.strike {
