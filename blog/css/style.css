@@ -150,7 +150,7 @@ span.strike {
     font-size: smaller;
     font-style: oblique;
     text-transform: uppercase;
-    text-orientation: mixed;
+    transform: rotate(0.5turn);
 }
 
 section {
