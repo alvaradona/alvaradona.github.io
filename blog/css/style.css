@@ -160,6 +160,7 @@ section {
     padding: 0px 120px;
     height: 100px;
     margin-left: 50px;
+    justify-content: center;
 }
 
 .article-image {
