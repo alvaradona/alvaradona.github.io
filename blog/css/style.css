@@ -148,8 +148,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: row wrap;
-    top: 80px;
-    left: 80px;
+    
     
 }
 
@@ -181,6 +180,8 @@ aside{
     padding: 20px;
     border-left: 2px solid black;
     box-sizing: border-box;
+    top: 80px;
+    left: 80px;
 }
 
 
