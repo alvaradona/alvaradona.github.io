@@ -163,7 +163,7 @@ section {
     float: left;
     margin: 20px auto;
     padding-right: 20px;
-    width: auto;
+    width: 40%;
 }
 
 .wrap {
@@ -172,7 +172,7 @@ section {
 
 article {
     flex: 1;
-    max-width: 50%;
+    max-width: 20%;
     max-height: 20%;
 }
 
@@ -207,6 +207,7 @@ aside{
     background-color: beige;
     border-radius: 15px;
     margin-bottom: 10px 0;
+    max-width: 40%;
     
 }
 
