@@ -201,7 +201,6 @@ aside{
     width: 200px;
 }
 
-
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -226,7 +225,7 @@ aside{
     background-color: rgb(70, 70, 117);
     color: white;
     font-size: 40px;
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
     font-weight: bold;
     float: left;
