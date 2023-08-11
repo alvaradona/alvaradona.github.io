@@ -121,6 +121,17 @@ span.highlight {
     text-decoration: none;
  }
 
+ .navlist a {
+    text-decoration: none;
+    color: #0056b3;
+    margin: 0 15px;
+ }
+ 
+ .navlist a:hover, .navlist a:focus {
+    text-decoration: none;
+
+ }
+
 ul {
     list-style: none;
     padding: 0;
@@ -141,13 +152,13 @@ span.strike {
     text-decoration-line: line-through;
     color: black;
     font-size: smaller;
-    transform: rotate(45deg);
+    font-style: oblique;
 }
 
 section {
     display: flex;
-    flex-direction: row column;
-    flex-wrap: row column wrap;
+    flex-direction: row;
+    flex-wrap: row wrap;
     
     
 }
