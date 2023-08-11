@@ -144,6 +144,14 @@ span.strike {
     transform: rotate(45deg);
 }
 
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row wrap;
+    padding: 20px;
+    max-width: 30%;
+    max-height: 20%;
+}
 
 .article-image {
     float: left;
@@ -172,9 +180,6 @@ aside{
     margin: 20px;
     border-left: 2px solid black;
     box-sizing: border-box;
-    padding: 20px;
-    max-width: 30%;
-    max-height: 20%;
 }
 
 
