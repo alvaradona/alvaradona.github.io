@@ -202,6 +202,15 @@ aside{
     width: 200px;
 }
 
+.subsection {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
