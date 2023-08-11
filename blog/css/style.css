@@ -150,6 +150,7 @@ span.strike {
     font-size: smaller;
     font-style: oblique;
     text-transform: uppercase;
+    text-orientation: sideways-right;
 }
 
 section {
