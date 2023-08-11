@@ -172,7 +172,7 @@ section {
 
 article {
     flex: 1;
-    max-width: 30%;
+    max-width: 50%;
     max-height: 20%;
 }
 
@@ -219,7 +219,7 @@ aside{
     font-weight: bold;
     float: left;
     width: 50%;
-    margin-right: 10px;
+    margin-right: 40px;
     }
 
 .expand {
