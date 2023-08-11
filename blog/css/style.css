@@ -158,9 +158,7 @@ span.strike {
 section {
     display: flex;
     flex-direction: row;
-    flex-wrap: row wrap;
-    
-    
+    flex-wrap: row wrap;  
 }
 
 .article-image {
@@ -199,10 +197,10 @@ aside{
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 20px;
+    grid-column-gap: 5px;
   }
   
-  .wrapper > div {
+.wrapper > div {
     flex: 1;
     margin-right: 10px;
   }
