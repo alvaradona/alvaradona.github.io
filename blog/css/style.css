@@ -223,8 +223,10 @@ aside{
     background-color: beige;
     border-radius: 2px;
     margin-bottom: 2px 0;
-    width: 200px;
-    justify-content: space-around;
+    width: 100px;
+    height: 200px;
+    gap: 10px;
+    
 }
 
 .subscribe-button {
