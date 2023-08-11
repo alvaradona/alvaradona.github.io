@@ -165,11 +165,11 @@ span.strike {
 
 .article-image {
     float: left;
-    position: sticky;
+    position: absolute;
     margin: 20px auto;
     padding-right: 20px;
     width: 200px;
-    height: 300px;
+    height: 350px;
     
 }
 
@@ -205,7 +205,7 @@ aside{
 .subsection {
     height: 80px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     padding-top: 40px;
     padding-left: 40px;
     padding-right: 40px;
