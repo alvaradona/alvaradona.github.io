@@ -201,12 +201,6 @@ aside{
     width: 200px;
 }
 
-.subsection {
-    height: 50px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-}
 
 .wrapper {
     display: grid;
