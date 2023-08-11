@@ -112,7 +112,7 @@ span.highlight {
     margin: 0;
 }
 
- .navlist {
+ .nav-list {
     color: #0056b3;
     font-weight: normal;
     list-style: none;
@@ -121,13 +121,13 @@ span.highlight {
     text-decoration: none;
  }
 
- .navlist a {
+ .nav-list a {
     text-decoration: none;
     color: #0056b3;
     margin: 0 15px;
  }
- 
- .navlist a:hover, .navlist a:focus {
+
+ .nav-list a:hover, .nav-list a:focus {
     text-decoration: none;
 
  }
