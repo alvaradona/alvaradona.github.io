@@ -156,6 +156,7 @@ span.strike {
 section {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     padding: 0px 120px;
     height: 500px;
     margin-left: 0px;
@@ -190,8 +191,7 @@ aside{
     padding: 20px;
     border-left: 2px solid black;
     box-sizing: border-box;
-    top: 80px;
-    left: 80px;
+    width: 30%;
 }
 
 .image-e, .image-i, .image-n {
