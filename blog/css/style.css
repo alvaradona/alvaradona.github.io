@@ -148,8 +148,8 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: row wrap;
-    margin-left: 40px;
-    padding: 40px;
+    margin-left: 80px;
+    padding: 80px;
 }
 
 .article-image {
