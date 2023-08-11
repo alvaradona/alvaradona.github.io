@@ -154,9 +154,9 @@ span.strike {
 }
 
 section {
-    display: flex;
+    display: flex right;
     flex-direction: column right;
-    flex-wrap: wrap;
+    flex-wrap: wrap right;
     padding: 0px 120px;
     height: 500px;
     margin-left: 0px;
