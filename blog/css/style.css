@@ -192,6 +192,10 @@ aside{
     left: 80px;
 }
 
+.image-e, .image-i, .image-n {
+    height: 230px;
+    width: 200px;
+}
 
 .wrapper {
     display: grid;
@@ -206,8 +210,8 @@ aside{
 
 .box1, .box2, .box3 {
     background-color: beige;
-    border-radius: 10px;
-    margin-bottom: 10px 0;
+    border-radius: 2px;
+    margin-bottom: 2px 0;
     max-width: 50%;
 }
 
