@@ -141,7 +141,7 @@ span.strike {
     text-decoration-line: line-through;
     color: black;
     font-size: smaller;
-    rotate: -45deg;
+    transform: rotate(45deg);
 }
 
 section {
@@ -245,15 +245,15 @@ aside{
 }
 
 .subscribe-button {
-    max-height: 50%;
-    max-width: 50%;
     background-color: rgb(70, 70, 117);
     color: white;
     font-size: 20px;
     border-radius: 10px;
     cursor: pointer;
     font-weight: bold;
-    object-position: 50%;
+    float: left;
+    width: 40%;
+    margin-right: 10px;
     }
 
 .expand {
