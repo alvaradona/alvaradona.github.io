@@ -146,8 +146,8 @@ span.strike {
 
 section {
     display: flex;
-    flex-direction: column;
-    flex-wrap: column wrap;
+    flex-direction: row column;
+    flex-wrap: row column wrap;
     
     
 }
