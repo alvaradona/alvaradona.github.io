@@ -148,8 +148,8 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: row wrap;
-    top: 20px;
-    right: 20px;
+    top: 40px;
+    left: 40px;
     
 }
 
