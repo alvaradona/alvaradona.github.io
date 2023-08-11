@@ -83,7 +83,6 @@ h1 {
     font-weight: bold;
     rotate: -10deg;
     max-width: 100%;
-    max-height: 50%;
 }
 
 span.highlight {
@@ -95,7 +94,7 @@ span.highlight {
     font-family: 'montserrat-regular', sans-serif;
     font-size: 50px;
     font-weight: bold;
-    padding: 10 px;
+    padding-top: 25px;
     rotate: -10deg;
     gap: 20px;
     text-shadow:
