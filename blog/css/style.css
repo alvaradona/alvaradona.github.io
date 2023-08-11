@@ -147,8 +147,8 @@ span.strike {
 section {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    flex-wrap: row wrap;
+    justify-content: right;
 }
 
 .article-image {
