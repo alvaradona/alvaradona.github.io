@@ -147,7 +147,7 @@ span.strike {
 section {
     display: flex;
     flex-direction: row;
-    flex-wrap: row wrap;
+    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
