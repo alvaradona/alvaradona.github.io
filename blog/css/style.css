@@ -217,8 +217,7 @@ aside{
 .first {
     display: flex;
     flex-direction: column;
-    padding: 0px 20px;
-    height: 50px;
+    column-gap: 20px;
 }
 
 .first p {
@@ -236,12 +235,12 @@ aside{
 .subscribe-button {
     background-color: rgb(70, 70, 117);
     color: white;
-    font-size: 20px;
-    border-radius: 10px;
+    font-size: 40px;
+    border-radius: 30px;
     cursor: pointer;
     font-weight: bold;
     float: left;
-    width: 40%;
+    width: 50%;
     margin-right: 10px;
     }
 
