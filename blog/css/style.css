@@ -85,9 +85,9 @@ img {
 
 h1 {
     text-align: center;
-    margin-top: 100px;
-    padding: 20px;
-    font-size: 24px;
+    margin-top: 6.25rem;
+    padding: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
     rotate: -10deg;
     max-width: 100%;
@@ -103,28 +103,28 @@ aside :nth-child(1) {
 }
 
 span.highlight {
-    max-width: 250px;
+    max-width: 15.625rem;
     background-color: darkslateblue;
     color: beige;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
     font-family: 'montserrat-regular', sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
-    padding-top: 25px;
+    padding-top: 1.5625rem;
     rotate: -10deg;
     gap: 20px;
     text-shadow:
-    1px 1px 1px black,
-    2px 2px 1px black;
+    0.0625rem 0.0625rem 0.0625rem black,
+    0.125rem 0.125rem 0.0625rem black;
 }
 
 .nav {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    border-top: 0.125rem solid black;
+    border-bottom: 0.125rem solid black;
     max-width: 100%;
     max-height: 100%;
-    padding: 5px 0;
+    padding: 0.3125rem 0;
     margin: 0;
 }
 
@@ -140,7 +140,7 @@ span.highlight {
  .nav-list a {
     text-decoration: none;
     color: #0056b3;
-    margin: 0 15px;
+    margin: 0 0.9375rem;
  }
 
  .nav-list a:hover, .nav-list a:focus {
@@ -154,8 +154,8 @@ ul {
 
 li {
     list-style: none;
-    padding: 20px 40px;
-    font-size: 20px;
+    padding: 1.25rem 2.5rem;
+    font-size: 1.25rem;
     cursor: pointer;
     font-stretch: expanded;
 }
@@ -188,7 +188,7 @@ article {
 }
 
 aside{
-    border-left: 2px solid black;
+    border-left: 0.125rem solid black;
     width: 19%;
     padding-left: 3%;
     margin-left: 3%;
@@ -223,8 +223,8 @@ aside img {
 .subscribe-button {
     background-color: rgb(70, 70, 117);
     color: white;
-    font-size: 40px;
-    border-radius: 30px;
+    font-size: 2.5rem;
+    border-radius: 1.875rem;
     cursor: pointer;
     font-weight: bold;
     float: left;
@@ -236,13 +236,13 @@ aside img {
 .expand {
     display: block;
     text-align: left;
-    font-size: 5px;
-    margin-top: 10px;
+    font-size: 0.3125rem;
+    margin-top: 0.625rem;
     color: #007bff;
     text-decoration: none;
-    border-bottom: 2px solid black;
+    border-bottom: 0.125rem solid black;
     max-width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
     align-self: center;
 }
 
